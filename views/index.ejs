@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>frontEndTest</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+  </head>
+  <body>
+
+      <div id="container">
+
+          <div id="sidebar">
+              <button class="optionButton">Option</button>
+              <form id="quantityForm" onsubmit="return false">
+                  <span>Quantity</span><br>
+                  <input type="number" class="form-contrl" id="quantity" placeholder="Type here">
+              </form>
+              <div class="obj1">
+                  <span>OBJ1</span>
+              </div>
+          </div>
+
+          <div id="main">
+              <div id="dropdown">
+                  <select>
+                    <option  disabled selected>Dropdown</option>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                  </select>
+
+                <div class="obj2">
+                    <span>OBJ2</span>
+                </div>
+            </div>
+
+            <div id="display">
+
+            </div>
+          </div>
+
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="../public/js/script.js"></script>
+  </body>
+</html>
